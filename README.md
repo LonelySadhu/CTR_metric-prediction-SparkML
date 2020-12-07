@@ -27,8 +27,8 @@ test.parquet - путь к датасету, который необходимо
 - PySparkMLPredict.py - задача, которая должна загружать модель и строить предсказание над переданными ей данными.  
 Варианты запуска задачи:   
 spark-submit PySparkMLPredict.py test.parquet result  
-#или
-python PySparkMLPredict.py test.parquet result  
-где:  
-test.parquet - путь к датасету, на основе данных которого нужно выполнить предсказания CTR  
+#или  
+python PySparkMLPredict.py test.parquet result    
+где:    
+test.parquet - путь к датасету, на основе данных которого нужно выполнить предсказания CTR    
 result - путь, по которому будет сохранен результат предсказаний следующего вида [ad_id, prediction]    
